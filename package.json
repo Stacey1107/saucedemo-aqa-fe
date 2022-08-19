@@ -1,0 +1,26 @@
+{
+  "name": "saucedemo-aqa-fe",
+  "version": "1.0.0",
+  "description": "A test for SauceDemo.com which checks purchase product flow",
+  "scripts": {
+    "webdriver-update": "webdriver-manager update",
+    "selenium-start": "webdriver-manager start",
+    "test": "protractor src/configs/protractor.conf.ts",
+    "prettier": "prettier --write ."  
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Stacey1107/saucedemo-aqa-fe.git"
+  },
+  "author": "Anastasiya Barysava",
+  "dependencies": {
+    "protractor": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^4.0.3",
+    "jasmine-spec-reporter": "^7.0.0",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}

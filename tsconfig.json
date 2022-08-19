@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2019",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "allowJs": false,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "noImplicitReturns": true,
+        "strict": true,
+        "baseUrl": "./",
+        "types": [
+            "node",
+            "jasmine"
+        ],
+    },
+    "exclude": [
+        "node_modules",
+    ], 
+}
